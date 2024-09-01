@@ -1,2 +1,7 @@
 import './constants/contacts.js';
-console.log("Server is running...");
+import "./scripts/generateContacts.js";
+import { createFakeContact} from "./utils/createFakeContact.js";
+
+
+console.log(createFakeContact());
+
